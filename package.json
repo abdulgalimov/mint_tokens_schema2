@@ -1,0 +1,17 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "test": "vitest",
+    "dev": "node --import=tsx main.ts",
+    "dev-watch": "node --import=tsx --watch main.ts"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.11.2",
+    "@unique-nft/opal-testnet-types": "^1003.70.0",
+    "@unique-nft/schemas": "^2.0.1",
+    "@unique-nft/sdk": "^0.6.2",
+    "tsx": "^4.7.1",
+    "typescript": "^4.7.4",
+    "vitest": "^1.2.2"
+  }
+}
